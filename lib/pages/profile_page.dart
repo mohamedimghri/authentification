@@ -25,7 +25,7 @@ class _ProfilePageState extends State<ProfilePage> {
         actions: [IconButton(onPressed: logout, icon: Icon(Icons.logout))],
       ),
       body: Center(
-        child: Text("$currentEmail"),
+        child: Text("Welcome Mr,$currentEmail in our application"),
       ),
     );
   }
